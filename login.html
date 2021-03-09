@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>LOGIN</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css_lib/w3.css">
+	
+	<link rel="stylesheet" href="alert/alertify.core.css">
+	<link rel="stylesheet" href="alert/alertify.default.css">
+
+	<script src="alert/jquery.js"></script>
+	<script src="alert/alertify.min.js"></script>
+<head>
+<body background="themes/hills.jpg">
+<header class="w3-container w3-green" style="width:100%;">
+		<h2><b>LOGIN</b></h2>
+</header>
+<div class="w3-card-4" style="width:50%;margin-left:25%;margin-top:8%;">
+	<div class="w3-container">
+				<form name="login" style="width:90%;height:40%;margin-left:5;" class="w3-form" action="login.jsp" method="post">
+					<div class="w3-input-group">
+						<label><b style="color:white">USERNAME</b></label>
+						<br>
+						<input class="w3-input" type="text" name="uname" maxlength="10" required>
+					</div>
+					<div class="w3-input-group">
+						<label><b style="color:white">PASSWORD</b></label>
+						<input class="w3-input" type="password" name="pwd" required>
+					</div>
+					<input class="w3-btn w3-brown" value="LOGIN" type="submit">
+					<div style="float:right">
+					<a href="recover.jsp"><b style="color:yellow">FORGOT PASSWORD</b></a>
+					</div>
+					<br>
+					<br>
+					<center><a style="text-decoration:none"href="signup.html"><b style="color:aqua;">NEED AN ACCOUNT</b></a></center>
+				</form>
+	</div>
+</div>
+<footer class="w3-container w3-brown w3-bottom" style="margin-top:12%;">
+	<center>
+		<nav class="w3-topnav w3-brown">
+		<a href="homepage.html">HOME</a>
+		</nav>
+	</center>
+</footer>
+</body>
+</html>
